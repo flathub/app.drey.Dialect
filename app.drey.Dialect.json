@@ -1,7 +1,7 @@
 {
     "app-id" : "app.drey.Dialect",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "42",
+    "runtime-version" : "43",
     "sdk" : "org.gnome.Sdk",
     "command" : "dialect",
     "finish-args" : [
@@ -21,7 +21,8 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler",
-                    "commit" : "87cedc2c7e48b01dc1b07aef937e2fe02111b18c"
+                    "tag": "v0.4.0",
+                    "commit": "75a6d95988736ec0471d22ceb07579c0cedac2ad"
                 }
             ]
         },
@@ -33,8 +34,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/dialect-app/dialect.git",
-                    "tag" : "2.0.2",
-                    "commit" : "3c8351326bdb571bc55d29fb9e8712ea2e17afeb"
+                    "tag" : "2.1.0",
+                    "commit" : "88a5efe5e601d8204143f84990b8026190ba5881"
                 }
             ]
         }
