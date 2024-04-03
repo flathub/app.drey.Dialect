@@ -1,7 +1,7 @@
 {
     "app-id" : "app.drey.Dialect",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "45",
+    "runtime-version" : "46",
     "sdk" : "org.gnome.Sdk",
     "command" : "dialect",
     "finish-args" : [
@@ -37,8 +37,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/dialect-app/dialect.git",
-                    "tag" : "2.2.0",
-                    "commit" : "93ad6c170363ff2c3d27c7f72eb5c67ffff85188"
+                    "tag" : "2.3.0",
+                    "commit" : "db9d47f0253a327fe2208ccf563a1a1ddd2cc806"
                 }
             ]
         }
