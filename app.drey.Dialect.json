@@ -37,8 +37,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/dialect-app/dialect.git",
-                    "tag" : "2.4.0",
-                    "commit" : "806266a1ab6043c666a55d6bb678b594fee3dca6"
+                    "tag" : "2.4.1",
+                    "commit" : "a79a0676c78ab7092cdb9b414e13e982d3ca62f5"
                 }
             ]
         }
