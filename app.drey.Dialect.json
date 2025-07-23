@@ -17,15 +17,25 @@
         {
             "name": "blueprint",
             "buildsystem": "meson",
-            "cleanup": [
-                "*"
-            ],
+            "cleanup": ["*"],
             "sources": [
                 {
                     "type": "git",
-                    "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler",
-                    "tag": "v0.16.0",
-                    "commit": "04ef0944db56ab01307a29aaa7303df6067cb3c0"
+                    "url": "https://gitlab.gnome.org/GNOME/blueprint-compiler",
+                    "tag": "0.18.0",
+                    "commit": "07c9c9df9cd1b6b4454ecba21ee58211e9144a4b"
+                }
+            ]
+        },
+        {
+            "name": "libspelling",
+            "buildsystem": "meson",
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://gitlab.gnome.org/GNOME/libspelling.git",
+                    "tag": "0.4.8",
+                    "commit": "07d3bbbbad393b7594918b8df3486531edb61aaf"
                 }
             ]
         },
@@ -37,8 +47,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/dialect-app/dialect.git",
-                    "tag" : "2.5.0",
-                    "commit" : "5492d94a3f63262b81b6359d78910b8710611df1"
+                    "tag" : "2.6.0",
+                    "commit" : "40759cabbeafc1a5d98d7010e76080db40c8583e"
                 }
             ]
         }
